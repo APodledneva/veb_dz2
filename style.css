@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(224, 224, 224);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(85, 51, 6);
+    font-family: 'Arkhip';
+    font-family: 'ProtoSans56', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: chocolate;
+}
+
+.bigeyes {
+    width: 300px;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+
+}
+
+.text_center {
+    text-align: center;
+    color: rgb(240, 135, 14);
+}
+
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+p {
+    font-family: 'ProtoSans56', sans-serif;
+    color: rgb(117, 46, 34);
+}
+a:hover {
+    color: rgba(255, 0, 0, 0.582);
+}
+ul {
+    list-style-type: circle;
+}
+
+@font-face {
+    font-family: 'ProtoSans56';
+    src: url('../fonts/protosans56.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('../fonts/protosans56.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('../fonts/protosans56.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/protosans56.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('../fonts/protosans56.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/protosans56.svg#protosans56') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
